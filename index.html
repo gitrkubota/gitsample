@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+Content of the document......
+
+
+<script>
+	axios.get('https://jsonplaceholder.typicode.com/posts')
+	  .then(function (response) {
+		console.log(response.data);
+	  });
+
+</script>
+</body>
+
+</html>
